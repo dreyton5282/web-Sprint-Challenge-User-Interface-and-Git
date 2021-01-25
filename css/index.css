@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 10px 0px;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -144,7 +144,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-#image {
-   background-image: url("Sprint\web-Sprint-Challenge-User-Interface-and-Git\img\jumbo.jpg");
-
+img {
+   display:block;
+   margin-left: auto;
+   margin-right:auto;
+   width: 85%; 
 }

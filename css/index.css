@@ -150,3 +150,8 @@ img {
    margin-right:auto;
    width: 85%; 
 }
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}

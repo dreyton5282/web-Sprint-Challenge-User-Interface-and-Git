@@ -144,3 +144,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+#image {
+   background-image: url("Sprint\web-Sprint-Challenge-User-Interface-and-Git\img\jumbo.jpg");
+
+}

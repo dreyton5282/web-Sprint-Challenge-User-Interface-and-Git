@@ -68,7 +68,9 @@ p {
 
 .container {
     width: 800px;
+    height: 100%;
     margin: 0 auto;
+    background-color: blueviolet;
 }
 
 .top-content {
@@ -143,4 +145,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.flex-logo {
+    display: inline-block;
+}
+.flex {
+    display: inline-block;
 }

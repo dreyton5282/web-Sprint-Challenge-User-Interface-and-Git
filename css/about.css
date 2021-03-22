@@ -38,7 +38,9 @@ body {
     padding: 10px;
 }
 header {
-	padding: 10px;
+	padding: 20px;
+	border-bottom: dotted brown 2px;
+	margin-bottom: 20px;
 
 }
 
@@ -65,4 +67,23 @@ h1 {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+}
+.picture-box {
+	padding: 20px;
+	border-bottom: dotted brown 2px;
+	margin-bottom: 20px;
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	width: 120px;
+}
+.boxes img {
+	width: 100px;
+	height: 100px;
+}
+.info-text {
+	display: block;
+}
+h2 {
+	font-size: 17px;
 }

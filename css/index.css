@@ -32,7 +32,10 @@ body {
 	line-height: 1;
 }
 header {
-    margin: 17px auto;
+    margin: 0px auto 17px;
+}
+.head.nav {
+    margin-top: 10px;
 }
 ol, ul {
 	list-style: none;
@@ -57,6 +60,8 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-color:black;
 }
 
 h1, h2, h3, h4, h5 {
@@ -73,6 +78,8 @@ p {
     width: 800px;
     height: 100%;
     margin: 0 auto;
+    background-color: white;
+    padding: 10px 50px 0px;
 
 }
 
@@ -143,6 +150,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-bottom: 0px;
 }
 
 footer nav a {
@@ -163,4 +171,7 @@ header nav a {
 }
 .highway-pic {
     margin-top: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

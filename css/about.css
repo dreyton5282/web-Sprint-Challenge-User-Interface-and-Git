@@ -27,6 +27,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	background-color: black;
 }
@@ -91,7 +92,19 @@ h1 {
 .info-text {
 	display: block;
 }
-h2 {
-	font-size: 17px;
-	font-display: bold;
+
+footer {
+	padding: 20px;
+}
+footer nav {
+	padding: 10px;
+	text-align: left;
+	background-color: black;
+	height: 30px;
+
+}
+footer nav a{
+	margin: 20px;
+	text-decoration: none;
+	color: white;
 }

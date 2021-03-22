@@ -27,6 +27,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+body {
+	background-color: black;
+}
 .flex-logo {
     display: inline-block;
 }
@@ -34,6 +37,11 @@ footer, header, hgroup, menu, nav, section {
     display: inline-block;
     padding: 10px;
 }
+header {
+	padding: 10px;
+
+}
+
 header nav a {
     padding: 25px;
     color: black;
@@ -47,5 +55,14 @@ header nav a {
     padding: 25px 45px 10px;
 }
 h1 {
-	font-size: 20px;
+	font-size: 18px;
+}
+#city-pic {
+	background-image: img ("C:/Lambda-School!/web-Sprint-Challenge-User-Interface-and-Git/img/jumbo-about.png");
+	background-size: contain;
+}
+.boxes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }

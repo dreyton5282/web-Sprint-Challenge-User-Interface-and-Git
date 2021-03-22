@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    width: 900px;
 }
 header {
     margin: 0px auto 17px;
@@ -60,7 +61,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    margin: 0px;
+    margin: 0px auto;
     background-color:black;
 }
 
@@ -79,7 +80,7 @@ p {
     height: 100%;
     margin: 0 auto;
     background-color: white;
-
+    padding: 25px 45px 10px;
 }
 
 .top-content {
@@ -163,7 +164,7 @@ footer nav a {
     padding: 10px;
 }
 header nav a {
-    padding: 35px;
+    padding: 25px;
     color: black;
     text-decoration: none;
 }
@@ -172,7 +173,4 @@ header nav a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-#footer {
-    position: fixed;
 }

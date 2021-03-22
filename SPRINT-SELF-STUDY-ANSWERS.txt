@@ -5,7 +5,9 @@
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
------ ANSWER: display block is a 
+----- ANSWER: display block is a block container that automatically takes up the line space above and below the line it is on, as well as automatically take up as much horizontal space on the line it is on.
+where as display inline creates a box that doesn't automatically take the line space above and below the line because it only stays within the height boundaries of the line it's on,
+and it will only take up as much space as it is told to automatically, so not taking up the horizontal space of the line it's on, like display block does.
 
 3. What are the 4 areas of the box model?
 

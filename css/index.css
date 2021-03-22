@@ -79,7 +79,6 @@ p {
     height: 100%;
     margin: 0 auto;
     background-color: white;
-    padding: 10px 50px 0px;
 
 }
 
@@ -150,7 +149,6 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    margin-bottom: 0px;
 }
 
 footer nav a {
@@ -174,4 +172,7 @@ header nav a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+#footer {
+    position: fixed;
 }
